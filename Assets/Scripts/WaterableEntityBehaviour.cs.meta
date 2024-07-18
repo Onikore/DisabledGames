@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dca5658271c8efb4f8ea8626d96e119d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - mainCamera: {instanceID: 0}
+  - WaterPercentUIPrefab: {fileID: 7689331914263373028, guid: 50f3d509b91688c478ef586340605fad,
+      type: 3}
+  - WaterPercentUIComponent: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
