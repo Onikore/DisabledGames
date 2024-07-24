@@ -34,6 +34,7 @@ namespace Managers.QuestManager
 
             foreach (var questableEntity in questableEntities)
                 questableEntity.OnQuestCompleted += OnQuestableEntityComplete;
+           
 
             textMeshProUGUI.text = questData.Instruction + "\n" + questableEntities.Count(x => x.IsCompleted == false);
 
@@ -69,10 +70,13 @@ namespace Managers.QuestManager
         {
             textMeshProUGUI.text = questData.Instruction + "\n" + questableEntities.Count(x => x.IsCompleted == false);
             entity.OnQuestCompleted -= OnQuestableEntityComplete;
+        
+
 
             Debug.Log("Questable entity complete");
             if (questableEntities.All(x => x.IsCompleted))
             {
+                AudioManager.instance.Play("QuestFinished");
                 Debug.Log("Quest complete");
                 OnQuestCompleted?.Invoke(this);
 
