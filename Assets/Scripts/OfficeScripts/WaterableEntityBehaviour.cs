@@ -24,9 +24,9 @@ public class WaterableEntityBehaviour : QuestableEntity
     // Start is called before the first frame update
     void Start()
     {
-        mainCamera = Camera.main;
-        WaterPercentUIComponent = Instantiate(WaterPercentUIPrefab, transform);
-        WaterPercentUIComponent.color = NeutralStateColor;
+        //mainCamera = Camera.main;
+        //WaterPercentUIComponent = Instantiate(WaterPercentUIPrefab, transform);
+        //WaterPercentUIComponent.color = NeutralStateColor;
     }
 
     // Update is called once per frame
