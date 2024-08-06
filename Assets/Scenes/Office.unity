@@ -3087,7 +3087,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: OfficeSpawn
     clip: {fileID: 8300000, guid: 14e4e0ee6596d63418af779216f7e299, type: 3}
-    volume: 1
+    volume: 0.405
     pitch: 1
     loop: 0
     playOnAwake: 1
